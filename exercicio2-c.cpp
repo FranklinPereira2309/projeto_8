@@ -15,10 +15,10 @@ for(int i = 0 ;  i < 20 ; i++) {
 for(int i = 0 ; i < 20 ; i++) {
     valor = arr[i];
     frequencia = arr2[valor -1]++;
-
-    cout << "O numero:  " << valor << " Apareceu: " << frequencia +1 << " vez(es)"<< endl;
 }
 
-    
 
+   
 }
+
+
