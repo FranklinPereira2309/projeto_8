@@ -10,9 +10,11 @@ for(int i = 0 ;  i < 100 ; i++) {
 }
 
 for(int i = 0 ; i < 100 ; i++) {
-   cout << arr[i] << endl;
+   cout << arr[i] << " ";
 
 }
+
+cout << endl;
 
 
     
