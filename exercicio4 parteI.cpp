@@ -6,7 +6,7 @@ using namespace std;
 
 const int larg = 640;
 const int alt = 480;
-const int Intensidades = 256;
+const int intensidades = 256;
 
 int main() {
     
@@ -15,11 +15,11 @@ int main() {
     int imagem[alt][larg];
     for (int x = 0; x < alt; x++) {
         for (int y = 0; y < larg; y++) {
-            imagem[x][y] = rand() % Intensidades;
+            imagem[x][y] = rand() % intensidades;
         }
     }
    
-    int histograma[Intensidades] = {0};
+    int histograma[intensidades] = {0};
     for (int x = 0; x < alt; x++) {
         for (int y = 0; y < larg; y++) {
             int intensidade = imagem[x][y];
@@ -28,7 +28,7 @@ int main() {
     }
     
     cout << "Histograma:" << endl;
-    for (int i = 0; i < Intensidades; i++) {
+    for (int i = 0; i < intensidades; i++) {
         cout << "Intensidade " << i << ": " << histograma[i] << " pixels" << endl;
     }
 
