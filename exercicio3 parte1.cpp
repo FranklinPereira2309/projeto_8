@@ -23,7 +23,7 @@ using namespace std;
 
 int main(){
     int dia, mes, ano;
-        
+
     cout << "Digite uma data no formato dd/mm/aaaa: ";
     cin >> dia;
     cin.ignore();
